@@ -1,0 +1,197 @@
+header{
+    background-image:url(/1674783727_top-fon-com-p-fon-dlya-prezentatsii-pekarni-198.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: wheat;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 18px;
+}
+h2{
+    margin-left: 500px;
+    margin-top: 200px;
+}
+h1{
+    color: wheat;
+    font-weight: bold;
+    font-style: oblique;
+}
+.main{
+    margin-top: 200px;
+    margin-left: 750px;
+ } 
+.list{
+    margin-left: 150px;
+}
+.adress{
+    margin-top: 70px;
+    margin-left: 35px;
+    font-size: 15px;
+}
+h3{
+  margin-left: 600px;  
+  margin-top: 30px;
+  color: gold;
+}
+  footer{ 
+    background-size: 100%;
+    background-repeat: no-repeat;
+     background-color:black;
+     font-size: 16px;
+    
+ }
+.main-bread{
+    color: wheat;
+    display: flex;
+    justify-content: space-around;
+  }
+.main-bread img{
+height: 210px;
+width: 210px;
+border: 50px;
+}
+.main-bread1{
+    color: wheat;
+    display: flex;
+    justify-content: space-around;
+}
+.main-bread1 img{
+    border: 10px solid wheat;
+    height: 210px;
+    width: 210px;
+    border-radius: 30px;
+}
+body{
+    background-color: black;
+}
+button{
+    background-color: goldenrod;
+}
+button:hover{
+transform: skew(-10deg);
+}
+button1{
+    background-color: goldenrod;
+     margin-left: 200px; 
+}
+.main-bread img{
+    border: 10px solid wheat;
+    border-radius: 30px;
+}
+.link{
+    color:wheat;
+}
+.link:hover{
+    color: goldenrod;
+}
+button {
+    border: none;
+    background: goldenrod;
+    color: black;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease; 
+  }
+  
+  button:hover {
+    background: blue;
+    color: wheat;
+    box-shadow: inset 0 0 0 3px black;
+  }
+.main1{
+    margin-left: 600px;
+    margin-top: 15px;
+  }
+  .social-icons{
+    display: flex;
+ margin-left: 100px;
+ justify-content: space-around;
+ height: 150px;
+ color: white;
+ padding-top: 50px;
+ font-size: 30px;
+ margin: 0 10px;
+  } 
+.title-word {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .title-word-1 {
+    --color-1: #DF8453;
+    --color-2: goldenrod;
+    --color-3: #E4A9A8;
+  }
+  
+  .title-word-2 { 
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: goldenrod;
+ } 
+
+ @keyframes color-animation { 
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+ } 
+
+/* Here are just some visual styles. 🖌 */
+
+.container {
+  display: grid;
+  place-items: center;  
+  text-align: center;
+  height: 200
+}
+
+ .title {  
+ font-family: "Montserrat", sans-serif; 
+   font-weight: 800; 
+   font-size: 30px; 
+   text-transform: uppercase; 
+ }  
+ .button1{
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: goldenrod;
+  background-size: 400%;
+  color: black;
+  border: none;
+  cursor: pointer;
+ }
+ .button1:hover::before{
+  transform: scaleX(1);
+ }
+ .button1-content{
+  position: relative;
+  z-index: 1;
+ }
+ .button1::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+  rgba(150, 93,233,1) 10.8%,
+  rgba(99, 88, 238, 1)
+  );
+  transition: all 0.475s;
+ }
